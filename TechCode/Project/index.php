@@ -16,7 +16,10 @@ $p = new Pessoa("study","root","root8");
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <?php
+   
+  
+   
+   <?php
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Processa os dados do formulário e salva no banco de dados
