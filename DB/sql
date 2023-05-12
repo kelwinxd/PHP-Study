@@ -1,0 +1,27 @@
+create table  (
+	id INT,
+	nome VARCHAR(50),
+	email VARCHAR(50),
+	job VARCHAR(50),
+	idade INT
+);
+insert into  (id, nome, email, job, idade) values (1, 'Si', 'smerrall0@altervista.org', 'Payment Adjustment Coordinator', 1);
+insert into  (id, nome, email, job, idade) values (2, 'Quinn', 'qfenning1@china.com.cn', 'Statistician III', 2);
+insert into  (id, nome, email, job, idade) values (3, 'Zenia', 'zknibley2@dmoz.org', 'Recruiting Manager', 3);
+insert into  (id, nome, email, job, idade) values (4, 'Rudyard', 'rhacker3@marriott.com', 'Account Coordinator', 4);
+insert into  (id, nome, email, job, idade) values (5, 'Lauryn', 'lleek4@npr.org', 'Senior Quality Engineer', 5);
+insert into  (id, nome, email, job, idade) values (6, 'Ricki', 'rcurnucke5@craigslist.org', 'Editor', 6);
+insert into  (id, nome, email, job, idade) values (7, 'Jen', 'jlydiate6@state.gov', 'Senior Sales Associate', 7);
+insert into  (id, nome, email, job, idade) values (8, 'Darlleen', 'dmcnellis7@posterous.com', 'Payment Adjustment Coordinator', 8);
+insert into  (id, nome, email, job, idade) values (9, 'Walliw', 'wobruen8@acquirethisname.com', 'Account Coordinator', 9);
+insert into  (id, nome, email, job, idade) values (10, 'Beatrix', 'bbeswell9@kickstarter.com', 'Speech Pathologist', 10);
+insert into  (id, nome, email, job, idade) values (11, 'Catarina', 'cfilmera@ox.ac.uk', 'Automation Specialist I', 11);
+insert into  (id, nome, email, job, idade) values (12, 'Jeremiah', 'jpapesb@about.me', 'GIS Technical Architect', 12);
+insert into  (id, nome, email, job, idade) values (13, 'Glynnis', 'gflethamc@spotify.com', 'Structural Analysis Engineer', 13);
+insert into  (id, nome, email, job, idade) values (14, 'Raeann', 'rchoupind@friendfeed.com', 'Chemical Engineer', 14);
+insert into  (id, nome, email, job, idade) values (15, 'Issy', 'icahille@indiegogo.com', 'Analog Circuit Design manager', 15);
+insert into  (id, nome, email, job, idade) values (16, 'Gabby', 'gwetheredf@amazonaws.com', 'Staff Scientist', 16);
+insert into  (id, nome, email, job, idade) values (17, 'Bernardine', 'baugusteg@etsy.com', 'Physical Therapy Assistant', 17);
+insert into  (id, nome, email, job, idade) values (18, 'Matti', 'mayresh@51.la', 'Chief Design Engineer', 18);
+insert into  (id, nome, email, job, idade) values (19, 'Ryun', 'rbocki@domainmarket.com', 'Web Developer II', 19);
+insert into  (id, nome, email, job, idade) values (20, 'Matthiew', 'mcombenj@timesonline.co.uk', 'Database Administrator IV', 20);

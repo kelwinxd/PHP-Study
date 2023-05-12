@@ -1,0 +1,211 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.center {
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.descricao-autor img {
+    max-width: 450px !important;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.clear {
+    clear:both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    
+float: right;
+}
+
+.w33 {
+    width: 33.33%;
+}
+
+header {
+    background-color: rgb(36, 36, 86);
+    padding: 25px 0;
+}
+header .logo {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 300;
+     background-color: white;
+     text-decoration: none;
+
+}
+
+
+.mobile {
+    display: none;
+}
+
+nav.desktop li {
+    display: inline-block;
+padding: 0 20px;
+
+}
+
+nav.desktop ul {
+    position: relative;
+    top: 5px    ;
+    vertical-align: center;
+}
+
+nav.desktop a {
+    color: white;
+    
+}
+
+.banner-principal {
+    background-image: url('banner.jpg');
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: hue-rotate(15deg);
+    filter: grayscale(50%);
+    display: flex;
+   
+    z-index: -1;
+}
+
+form {
+    text-align: center;
+    width: 92%;
+    max-width: 600px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+
+}
+
+form input[type=email]{
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-top: 15px;
+      border-radius: 5px;
+}
+
+form h2 {
+    color: white;
+}
+form input[type=submit]{
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-top: 15px;
+      border-radius: 5px;
+      background-color: aquamarine;
+      cursor:pointer;
+      font-size: 22px;
+}
+
+.descricao-autor {
+    padding: 30px 0;
+
+}
+
+img {
+    width: 100%;
+}
+
+.descricao-autor h2 {
+    font-size:  2rem;
+    font-weight: bold;
+}
+.descricao-autor p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+
+.extras {
+    margin-top: 150px;
+}
+
+.especialidades {
+    background-color: gray;
+    padding: 50px 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .w50 {
+        width: 100%;
+        padding: 20px;
+    }
+    img {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        float: none !important;
+        transform: translate(-50%,10%);
+    }
+     .desktop {
+        display: none;
+     }
+
+     .mobile {
+        display: block;
+     }
+     .mobile ul {
+        display: block;
+        position: absolute;
+        z-index: 40;
+        top: 55px;
+        left: 0;
+        width: 100%;
+     }
+
+     .mobile li {
+        padding: 10px;
+        text-align: center;
+          font-size: 20px;
+          background-color: white;
+          border-bottom: 1px solid gray;
+     }
+
+     .mobile li a {
+        color: black;
+        font-weight: 400;
+     }
+     .mobile i {
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+     }
+}
+
+
